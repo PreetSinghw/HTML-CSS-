@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website for the clothes</title>
+  </head>
+  <body>
+
+<header>
+  
+    <h1>Hi, it's the clothes shop</h1>
+    <p>My name is Peter and i am creating a website with the clothes</p>
+    <img
+      src="l-intro-1672162426.jpg"
+      alt="a photo of peter from carton show"
+      width="100"
+      height="100"
+    />
+  </header>
+  <article>
+    <header>
+    <h2>What is history of the clothes</h2>
+    <p>
+      Learn more about the history about the Clothes
+      <a
+        href="https://en.wikipedia.org/wiki/History_of_clothing_and_textiles"
+        target="_blank"
+        >History of Clothes</a
+      >
+    </p>
+  </header>
+
+    <p>
+      <strong>Google </strong>says
+      <i>A Clothing History</i>
+      .Extraction of fabrics and waving textiles were first started in the
+      Middle East during the late Stone Age. Wearing fabric clothes began from
+      100,000 to 500,000 years ago. Knitting was first introduced as a fabric
+      creation technique, dating 6500 BC, which is even popular in today's
+      fabrics.
+    </p>
+
+
+    <h3>Why do we wear clothes ?</h3>
+    <img src="clothes.avif" alt="photos of clothes" height="200" width="400" />
+
+    <p>
+      According to the <b>google</b>: Clothing provides physical safeguards to
+      the body. Clothes Can Be Worn for
+      <strong>status, modesty, adornment and identification</strong>. Clothes
+      protect us from occupational hazards, weather, heat, dust, rain and cold.
+    </p>
+
+
+    <h3>how clothes are made ?</h3>
+    <p><em>these are the steps to make clothes</em></p>
+    <ol>
+      <li>Apparel manufacturing process involves Product Design,</li>
+      <li>Fabric Selection and Inspection, Patternmaking, Grading, Marking,</li>
+      <li>Spreading, Cutting, Bundling, Sewing, Pressing or Folding,</li>
+      <li>Finishing and Detailing, Dyeing and Washing, QC etc.</li>
+    </ol>
+
+    <h3>who buy the clothes more ?</h3>
+    <p>
+      Clother are everywhere
+      <nav>
+      <a href="newPage.html" alt="link to the new Page">New page </a>
+      <a href="a">new page here </a>
+      <a href="a">clothes yeah</a>
+      <a href="a">your clothes</a>
+    </nav>
+    </p>
+
+    <p>So how did the conventional wisdom do?</p>
+    <ul>
+      <li>Women buy more clothing than men: True.</li>
+      <li>
+        across most apparel categories than men are. Women are far more likely
+        to purchase clothing
+      </li>
+      <li>woman aged 26 to 35 now shop 59% more often than men.😊</li>
+    </ul>
+  </article>
+  <footer>
+     Copyright &copy; 2023 clothes are everything. 
+    </footer>
+  </body>
+</html>
