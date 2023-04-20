@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style1.css" rel="stylesheet" text="css">
+    <title>the challange</title>
+  </head>
+    <header>
+      <article class="lol">
+      <body>
+      <h1>
+        <p class="me"> 
+        <strong>The best shoes in the world</strong></p>
+      </h1>
+    </header>
+    <img src="img/6.jpg" alt="a photo" height="250" width="350" />
+    <p class="price">
+      <strong>$65.00</strong>
+    </p>
+    <p class="free">Free shipping</p>
+    <p><em>Get it when you want </em></p>
+   
+    <h2>Welcome friends</h2>
+    <a href="#">link to the moon👉</a>
+    <ul>
+      <li>Go there</li>
+      <li>Come here</li>
+      <li>Ok done</li>
+    </ul>
+  
+  
+    <button class="hi">Add to cart</button>
+  
+    <footer>Copyright &copy; Preet singh </footer>
+  </article>
+</body>
+</html>
