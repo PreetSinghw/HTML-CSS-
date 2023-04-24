@@ -1,0 +1,165 @@
+* {
+  border-top: #964747;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: rgb(145, 130, 194);
+
+  border-top: 5px solid rgb(195, 206, 179);
+}
+ul,
+ol {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.all {
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-style: oblique;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: unset;
+  font-style: oblique;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+/*footer {
+  font-size: 12px;
+  font-style: initial;
+}*/
+
+article header p {
+  font-size: 20px;
+  font-style: italic;
+}
+#COPY {
+  font-size: larger;
+}
+
+.writer-me {
+  font-weight: bold;
+}
+.remove-it {
+  list-style: none;
+}
+
+.header1 {
+  background-color: rgba(179, 159, 159, 0.688);
+  /*border-top: 5px solid rgb(145, 130, 194);
+  border-bottom: 5px solid rgb(145, 130, 194);*/
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.lol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#pera2 {
+  margin-bottom: 10px;
+}
+.acc {
+  margin-top: 10px;
+}
+.header4 {
+  margin-top: 10px;
+}
+aside {
+  background-color: rgba(179, 159, 159, 0.688);
+  padding: 0px 0;
+  margin-bottom: 10px;
+}
+body {
+  background-color: rgb(238, 232, 232);
+}
+
+li:first-child {
+  font-size: 18px;
+  color: #964747;
+}
+li:last-child {
+  font-size: 18px;
+  color: #964747;
+}
+li:nth-child(even) {
+  font-size: 18px;
+  color: #964747;
+}
+li:nth-child(3) {
+  font-size: 18px;
+  color: #964747;
+}
+
+a:link {
+  color: #3080e1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3080e1;
+}
+a:hover {
+  color: #000;
+  font-weight: lighter;
+  text-decoration: underline rgb(12, 5, 6);
+}
+
+#COPY {
+  color: red;
+  font-size: 10px;
+}
+.COPY {
+  color: yellow;
+}
+.text {
+  color: green;
+}
+
+nav a:link p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.link {
+  margin-right: px;
+}
+aside:last-child {
+  margin-right: 20px;
+}
