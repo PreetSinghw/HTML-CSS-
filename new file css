@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.divtest {
+  width: 800px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+  color: #0c0b0d;
+  background-color: rgb(245 253 241);
+  position: relative;
+}
+ul,
+ol {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.all {
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+P::first-line {
+  /*color: #f0ea3c;*/
+}
+
+h3 + P::first-line {
+  /* color: #964747;*/
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 5px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: unset;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  /*display: inline;*/
+}
+li:last-child {
+  margin-bottom: 0;
+}
+/*footer {
+  font-size: 12px;
+  font-style: initial;
+}*/
+
+article header p {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+#COPY {
+  font-size: larger;
+}
+
+.writer-me {
+  font-weight: bold;
+}
+.remove-it {
+  list-style: none;
+}
+
+.header1 {
+  background-color: rgba(234, 230, 224, 0.991);
+  /*border-top: 5px solid rgb(145, 130, 194);
+  border-bottom: 5px solid rgb(145, 130, 194);*/
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  height: 90px;
+}
+
+.lol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* position: relative;*/
+}
+#pera2 {
+  margin-bottom: 10px;
+}
+.acc {
+  margin-top: 10px;
+}
+.header4 {
+  margin-top: 10px;
+  position: relative;
+}
+aside {
+  background-color: rgba(234, 230, 224, 0.991);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  width: 500px;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+li:first-child {
+  font-size: 18px;
+  color: #964747;
+}
+li:last-child {
+  font-size: 18px;
+  color: #964747;
+}
+li:nth-child(even) {
+  font-size: 18px;
+  color: #964747;
+}
+li:nth-child(3) {
+  font-size: 18px;
+  color: #964747;
+}
+
+a:link {
+  color: #a4aab3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3080e1;
+}
+a:hover {
+  color: #000;
+  font-weight: lighter;
+  text-decoration: underline rgb(12, 5, 6);
+}
+
+#COPY {
+  color: red;
+  font-size: 10px;
+}
+.COPY {
+  color: yellow;
+}
+.text {
+  color: green;
+}
+
+nav a:link p {
+  font-size: 5px;
+  font-weight: bolder;
+}
+.link {
+  margin-right: px;
+}
+
+.myimg {
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+}
+
+nav a:link {
+  background-color: #f9cece;
+
+  margin-bottom: 5px;
+  display: inline-block;
+  /*display: block;*/
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.b1 {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 25px;
+  border: 2px solid #000;
+  border-radius: 15%;
+  position: absolute;
+  /*top: 50px;
+  left: 50px;*/
+  bottom: 50px;
+  right: 50px;
+}
+.b1:hover {
+  background-color: #a0c5f2;
+  color: rgb(247, 230, 233);
+}
+
+/*Floating .firstimg {
+  float: left;
+}
+
+#pera2 {
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+.google {
+  float: right;
+}
+ when creating a dive in html and then removing it
+.clear {
+  clear: right;
+  clear: both;
+}
+
+.lol::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+*/
+
+article {
+  width: 490px;
+  float: left;
+  box-sizing: border-box;
+}
+aside {
+  width: 300px;
+  float: right;
+  box-sizing: border-box;
+}
+footer {
+  clear: both;
+  box-sizing: border-box;
+}
+
+nav {
+  float: right;
+}
+
+.realted {
+  margin: right 15px;
+}
