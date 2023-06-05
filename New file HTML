@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Rates</title>
+    <link rel="icon" type="image" href="P.jpg" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-text-box">
+          <h1>We design and build better Rates, for a better life</h1>
+          <p class="header-text">
+            In a small squad in the heart of Lodgify, we spend our days
+            relentlessly perfecting the Rates. The result is a perfect blend of
+            beauty and comfort, that will have a lasting impact on your
+            Bussiness.
+          </p>
+          <a class="btn btn--big" href="#">Try Rates</a>
+        </div>
+        <img src="Team.PNG" alt="Photo" />
+      </header>
+
+      <section>
+        <h2>What makes our Rates special</h2>
+        <div class="grid-3-cols">
+          <div>
+            <p class="features-title"><strong>Think before</strong></p>
+            <p class="features-text">
+              Price is what you pay. Value is what you get. Strike the perfect
+              balance, and your guests will happily pay for the exceptional
+              experience you provide.
+            </p>
+          </div>
+
+          <div>
+            <p class="features-title">
+              <strong>Maximal comfort</strong>
+            </p>
+            <p class="features-text">
+              Embrace the epitome of comfort, where every rate is tailored to
+              ensure your utmost satisfaction and create an unforgettable
+              experience.
+            </p>
+          </div>
+
+          <div>
+            <p class="features-title">
+              <strong>Ethical and sustainable</strong>
+            </p>
+            <p class="features-text">
+              Rates that resonate, with ethical and sustainable values at their
+              core, paving the way for a harmonious balance between planet,
+              people, and profit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="grid-3-cols">
+          <img src="R.jpg" alt="People sitting on chairs" />
+          <div class="testimonial-box">
+            <h2>
+              "We couldn't live without these <strong>Rates</strong> anymore"
+            </h2>
+            <blockquote class="testimonial-text">
+              "Success in pricing is not just about numbers; it's about finding
+              the sweet spot where value meets delight."
+            </blockquote>
+            <p class="testimonial-author">&mdash; Preet and Rates Team.🤞</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Our New features</h2>
+        <div class="grid-3-cols">
+          <figure class="chair">
+            <img src="Smart.png" alt="Chair" class="chairpic" />
+            <div class="chair-box">
+              <h3>The Smart pricing</h3>
+              <ul class="chair-details">
+                <li>
+                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable for life</span>
+                </li>
+                <li>
+                  <span>Everyday new prices</span>
+                </li>
+                <li>
+                  <span>Price will be Smart</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>1% only</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="Rates1.jpg" alt="Chair" class="chairpic" />
+            <div class="chair-box">
+              <h3>The External Rates</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Working ok</span>
+                </li>
+                <li>
+                  <span>Comfortable for 8h</span>
+                </li>
+                <li>
+                  <span>Price in 3rd party</span>
+                </li>
+                <li>
+                  <span>Not smart prices</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>Subs</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="Our.jpg" alt="Chair" class="chairpic" />
+            <div class="chair-box">
+              <h3>Our rates</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>The best</span>
+                </li>
+                <li>
+                  <span>Comfortable all day!</span>
+                </li>
+                <li>
+                  <span>Organic rates</span>
+                </li>
+                <li>
+                  <span>You are safe with me</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>Subs</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <footer>
+        Copyright &copy; 2023 by Preet Singh. Part of "Rates Real-World Websites
+        with HTML and CSS" learning Friday. Use for learning purposes only.
+      </footer>
+    </div>
+  </body>
+</html>
